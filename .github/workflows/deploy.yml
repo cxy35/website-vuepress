@@ -15,7 +15,7 @@ jobs:
           TARGET_REPO: cxy35/website-vuepress
           TARGET_BRANCH: gh-pages
           # BUILD_SCRIPT: yarn && yarn build
-          BUILD_SCRIPT: npm run docs:build
+          BUILD_SCRIPT: npm && npm run docs:build
           BUILD_DIR: docs/.vuepress/dist
           COMMIT_MESSAGE: Auto deploy from Github Actions
           # CNAME: https://vuepress.cxy35.com
