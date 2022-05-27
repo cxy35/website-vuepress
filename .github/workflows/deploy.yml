@@ -1,4 +1,5 @@
-# https://vuepress.vuejs.org/zh/guide/deploy.html#github-pages
+# 部署方法2：https://github.com/jenkey2011/vuepress-deploy
+# 每次推送代码，将自动构建、部署到 cxy35/website-vuepress 的 gh-pages 分支，注意在 Pages 的设置中需要指定到该分支
 name: Build and Deploy
 on: [push]
 jobs:
