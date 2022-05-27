@@ -1,5 +1,5 @@
 module.exports = {
-    // base: '/vuepress/',
+    base: '/website-vuepress/',
     // title: '程序员35',
     title: '网站的标题',
     // description: '关注微信公众号【程序员35】，获取最新技术干货',
@@ -32,8 +32,8 @@ module.exports = {
             //     {text: 'CSDN', link: 'https://blog.csdn.net/cxy35'},
             //     {text: 'OSCHINA', link: 'https://my.oschina.net/cxy35'}
             // ]},
-            // {text: 'GitHub', link: 'https://github.com/cxy35'},
-            // {text: 'Gitee', link: 'https://gitee.com/cxy35'}
+            {text: 'GitHub', link: 'https://github.com'},
+            {text: 'Gitee', link: 'https://gitee.com'}
         ],
         sidebar: {
             '/git/': [
