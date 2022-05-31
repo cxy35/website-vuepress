@@ -13,9 +13,11 @@ module.exports = {
         nav: [
             {text: '首页', link: '/'},
             {text: 'Markdown 教程', link: '/markdown'},
+            {text: 'Git 教程', link: '/git/git-command'},
+            {text: 'Spring Boot 教程', link: '/springboot'},
             {text: '其他教程', items: [
-                {text: 'Git 教程', link: '/git/git-command'},
-                {text: 'GitHub 教程', link: '/github/github-search-advanced'}
+                {text: 'GitHub 教程', link: '/github/github-search-advanced'},
+                {text: 'Spring Cloud 教程', link: '/springcloud'}
             ]},
             // {text: '项目地址', items: [
             //     {text: '示例项目', items: [
@@ -33,7 +35,7 @@ module.exports = {
             //     {text: 'OSCHINA', link: 'https://my.oschina.net/cxy35'}
             // ]},
             {text: 'GitHub', link: 'https://github.com'},
-            {text: 'Gitee', link: 'https://gitee.com'}
+            // {text: 'Gitee', link: 'https://gitee.com/cxy35'}
         ],
         sidebar: {
             '/git/': [
