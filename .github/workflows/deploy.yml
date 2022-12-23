@@ -19,4 +19,4 @@ jobs:
           BUILD_SCRIPT: npm install && npm run docs:build
           BUILD_DIR: docs/.vuepress/dist
           COMMIT_MESSAGE: Auto deploy from Github Actions
-          # CNAME: https://vuepress.cxy35.com
+          # CNAME: https://vuepress.cxy35.top

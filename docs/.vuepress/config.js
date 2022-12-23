@@ -30,7 +30,7 @@ module.exports = {
             //     ]}
             // ]},
             // {text: '个人站点', items: [
-            //     {text: '独立站点', link: 'https://www.cxy35.com'},
+            //     {text: '独立站点', link: 'https://www.cxy35.top'},
             //     {text: 'CSDN', link: 'https://blog.csdn.net/cxy35'},
             //     {text: 'OSCHINA', link: 'https://my.oschina.net/cxy35'}
             // ]},
